@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell',"Lato", 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #00388d;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+}
+
+.sidebar a {
+  padding: 15px 10px 15px 70px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  font-weight: 50%;
+}
+
+.sidebar a:hover {
+  color: #ffffff;
+  background: #006ed4;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: -20px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #ffffff;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color:#001b76;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #006ed4;
+}
+
+#btn-nav {
+  padding: 10px 10px;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  left: 16px;
+  top: 10px;
+  display: inline-block;
+}
+
+ .all_forms{
+padding-top: 50px;
+color: #001b76;
+ }
