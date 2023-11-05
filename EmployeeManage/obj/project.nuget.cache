@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "bHmENM24FxuUnv/3uyApYhBiOX6h/ITFtiZ+Ma+4u213b4sxau1+QQZ1QRGfzK2LezAsUr2WpvxoBsVINzj/cQ==",
+  "success": false,
+  "projectFilePath": "D:\\My Projects\\Employee Management Web App\\EmployeeManage\\EmployeeManage.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design"
+    }
+  ]
+}
